@@ -24,34 +24,22 @@ For this portion of the lab you will design the solution so that you perform som
 # Part B: Write Something New!
 
 Write a complete and syntactically correct Python program to solve the following problem: You are the payroll manager for SoftwarePirates Inc. You have been charged with writing a package that calculates the monthly paycheck for the salespeople. Salespeople at SoftwarePirates get paid a base salary of $2000 per month. Beyond the base salary, each salesperson earns commission on the following scale:
- Sales
-<$10000
-$10000 – $100,000 $100,001 - $500,000 $500,001 - $1,000,000 >$1,000,000
-Commission Rate Bonus
-0% 0
-2% 0
-15% $1000 28% $5000 35% $100,000
+
+[sales/commission scale table]
+
  The following additional conditions apply:
 1. If a salesperson has taken more than 3 vacation days in a month, their pay gets reduced by $200
 2. A salesperson earns a bonus only if they have been with the company for 3 months or more
 3. For salespeople who have been with the company for 5 years or more and who have made sales greater than $100,000 an additional bonus of $1000 is added.
 All input to the program will be interactive from the keyboard. The output of the program will include:
 
-a. Thenameofthesalesperson
+a. The name of the salesperson
 b. Their longevity with the company
 c. Their base salary
-d. Thecommissionearned(inDollars)
-e. Thebonusearned
+d. The commission earned(inDollars)
+e. The bonus earned
 f. Additional bonus earned (if any)
 g. Deductions (if any)
 h. A total gross paycheck
 i. Your output should look like a paystub (NOT in paragraph format)
 j. All currency should be formatted with a $ sign and 2 decimal places
-Use the IDLE programming environment if you are using Python with IDLE. Some of you may be using Komodo or some other Python IDE. Please save your file as firstname_lastname_Lab3b.py where you will replace firstname and lastname with your actual first name and last name.
-Remember to use the extension .py.
-Run and test your program for all conditions. Once you are sure it works you will turn in the items listed in the next section.
-Turn In
-All labs will be graded in Blackboard. Once you are done with the lab turn it in to the Lab 3 link. Please read the How To Submit instructions if you have any questions or contact the instructor / academic coach.
-For this lab you will turn into Blackboard:
-1. ThePythoncodefileyousavedinpartA 2. ThePythoncodefileyousavedinpartB
- 
