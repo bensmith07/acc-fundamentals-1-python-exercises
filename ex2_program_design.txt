@@ -1,0 +1,33 @@
+LAB 2 PART A
+Conversion Program Design
+
+1. Define conversion rates
+2. Receive input to be converted
+3. Perform calculations
+4. Display converted values
+
+1a. 	Define conversion value for miles to kilometers as 1.6
+1b(1). 	Define conversion value 1 for Fahrenheit to Celsius as 32
+1b(2). 	Define conversion value 2 for Fahrenheit to Celsius as (5/9)
+1c. 	Define conversion value for gallons to liters as 3.9
+1d. 	Define conversion value for pounds to kilograms as 0.45
+1e. 	Define conversion value for inches to centimeters as 2.54
+
+2a. Prompt user to input number of miles to be converted
+2b. Prompt user to input temperature in Fahrenheit to be converted
+2c. Prompt user to input number of gallons to be converted
+2d. Prompt user to input number of pounds to be converted
+2e. Prompt user to input number of inches to be converted
+
+3a. Calculate the number of kilometers as miles multiplied by the conversion value for miles
+3b. Calculate the temperature in Celsius as the temperature in Fahrenheit minus conversion 
+	value 1 for Fahrenheit multiplied by conversion value 2 for Fahrenheit. 
+3c. Calculate the number of liters as gallons multiplied by the conversion value for gallons
+3d. calculate the number of kilograms as pounds muliplied by the conversion value for pounds
+3e. Calculate the number of centimeters as inches multiplied by the conversion value for inches
+
+4a. Display the number of kilometers, rounded to two decimal places
+4b. Display the temperature in Celsius, rounded to two decimal places
+4c. Display the number of liters, rounded to two decimal places
+4d. Display the number of kilograms, rounded to two decimal places
+4e. Display the number of centimeters, rounded to two decimal places
