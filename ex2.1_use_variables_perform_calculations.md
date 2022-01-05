@@ -1,7 +1,9 @@
-Part A: Design a Solution (LO 1.1, 1.2)1
-This refers to the competency module learning objective covered by this activity
+# Part A: Design a Solution (LO 1.1, 1.2)1
+
 For this portion of the lab, you will design the solution to a simple program that uses sequential statements. (That means DO NOT use loops, functions, if/else, a menu etc...) You may draw a flowchart or write pseudocode. Remember that pseudo code CANNOT contain ANY language syntax, If you draw a flowchart, you will scan the drawing and submit it as a pdf or jpeg file. Design a solution to the following problem:
+
 Your cousin is visiting from England and it is getting very annoying for you to constantly convert US measures to metric measures. After all, only 95% of the world uses the metric system. Using your programming prowess, you decide to write him a program that will perform the necessary conversions. (The program design will convert ALL 5 measurements) But, wait, someone once told you that “hours of planning can save you weeks of programming.” Keeping that in mind, you will first design a program that performs the following conversions:
+
 a. Miles to kilometers – one mile = 1.6 kilometers
 b. Fahrenheit to Celsius – the formula to calculate is (F - 32) * 5/9 where F is the Fahrenheit
 temperature
@@ -11,6 +13,7 @@ e. Inches to centimeters – one inch = 2.54 centimeters
 (These are rounded - Please do not search for the exact conversion formula, just use what is provided here.)
   
 When you design and code this program follow these directions:
+
 1. You must prompt the user for input. As an example: You may say “William, please tell me how many miles you want converted to kilometers.” (LO 3, 5)
 2. You will then store the input value in a variable (LO 2)
 3. You will perform the conversion in an arithmetic expression. As an example to convert
@@ -20,3 +23,7 @@ from inches to centimeters you will multiply the inches by 2.54, which is the nu
 6. Desk check your design and ensure that it does what it is meant to do (LO 1)
 7. You will write the program using ONLY sequential statements ( no loops, if/else, functions)
 8. You will convert ALL 5 measurements in ONE program.
+
+# Part B: Code
+Use the design you created in part A. Write a complete and syntactically correct Python program. The program MUST contain comments and numeric values MUST be formatted to no more than 2 decimal places. Use the IDLE programming environment if you are using Python with IDLE. Some of you may be using Komodo or some other Python IDE. Please save your file as firstname_ lastname_Lab2.py where you will replace firstname and lastname with your actual first name and last name. Remember to use the extension .py.
+Run and test your program. Once you are sure it works you will turn in the items listed in the next section.
